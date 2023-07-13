@@ -5,7 +5,7 @@ body{
   padding: 0;
   margin: 0;
 }
-/*
+
 header{
   padding-top:15px;
   padding-bottom:30px;
@@ -14,7 +14,7 @@ header{
   background:#f2f2f2;
   border-bottom:15px solid #3af29d;
 }
-
+/*
 nav{
   width:960px;
   margin:0 auto;
@@ -23,12 +23,12 @@ nav{
 .menu{
   list-style:none;
   border:1px solid #c0c0c0;
-  float:left;
+  float:right;
   }
 
 .menu li{
     position:relative;
-    float:left;
+    float:right;
     border-right:1px solid #c0c0c0;
   }
 
@@ -52,6 +52,7 @@ text-shadow:0px 0px 5px #fff;
 
 iframe{
   transition: height 1s;
+  border: 0;
 }
 
 iframe:hover{
@@ -61,12 +62,12 @@ iframe:hover{
 nav a:hover{
   color: #3af29d;
 }
-
+/*
   border: 1px solid #ccc;
   width: 29.6%;
 font-family: Trebuchet MS;
 }
-
+*/
 textarea{
   border-radius: 10px;
   border: 1px solid #ccc;
