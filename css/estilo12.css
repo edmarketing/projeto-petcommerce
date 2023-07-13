@@ -1,0 +1,71 @@
+@charset "UTF-8"
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+<ul class="menuhorizontal">
+<li class="btnesquerdo"><a href="../posicionamento/p3.html">Posic. 3</a></li>
+<li><a href="../posicionamento/p4.html">Posic. 4</a></li>
+<li><a href="../posicionamento/p5.html">Posic. 5</a></li>
+<li><a href="../posicionamento/p6.html">Posic. 6</a></li>
+<li><a href="../posicionamento/p7.html">Posic. 7</a></li>
+</ul>
+
+/*A lista não ordenada <ul><li> </li></ul> é então formatada com css.*/
+
+.menuhorizontal{
+margem: 0;
+preenchimento: 0;
+largura: automático;
+altura: 30px;
+}
+
+/*definições gerais do menu*/
+
+.menuhorizontal ul{
+estilo de lista: nenhum;
+}
+
+/*retirar o estilo das listas*/
+
+.menuhorizontal li{
+display: inline;
+flutuar: esquerda;
+preenchimento: 0px;
+margem: 0;
+largura: 80px;
+border-left: #666666 sólido fino;
+}
+
+/*formatar uma lista. Definir o tamanho do botão, o seu posicionamento e display: inline por ser um menu horizontal*/
+
+.menuhorizontal a{
+display: bloco;
+decoração de texto: nenhum;
+preenchimento: 6px;
+cor de fundo: #CCCCCC;
+família de fontes:Verdana, Arial, Helvetica, sans-serif;
+tamanho da fonte: 14px;
+intensidade da fonte: Negrito;
+}
+
+/* formatação da âncora e área clicável*/
+
+.menuhorizontal :hover{
+background-color: #EEEEEE;
+decoração de texto: nenhum;
+cor: #FFFFFF;
+}
+
+/*formatação do estado :hover*/
+
+.menuhorizontal li.btnesquerdo{
+limite: nenhum;}
